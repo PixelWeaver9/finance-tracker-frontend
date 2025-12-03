@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Wallet, TrendingUp, TrendingDown, PlusCircle, Edit2, Trash2, X, DollarSign, Calendar, Tag, FileText, RefreshCw } from 'lucide-react';
 
-const API_URL = 'https://ajii.my.id.infinityfreeapp.com';
+const API_URL = 'https://ajii.my.id';
 
 const FinanceTracker = () => {
   const [transactions, setTransactions] = useState([]);
